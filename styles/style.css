@@ -70,7 +70,7 @@ main{
 /* two section  */
 .container{
     
-    max-width: 870px;
+    width: 870px;
     background-color: white;
     box-sizing: border-box;
     padding: 30px;
@@ -225,9 +225,10 @@ article{
 @media only screen and (max-width:688px){
     .container{
         width: 100%;
+        padding: 0 10px;
     }
     main{
-        margin: 0 30px;
+        margin: 0 5px;
     }
     .players, .blog-articale, .courses{
         grid-template-columns: repeat(1, 1fr);
@@ -239,6 +240,23 @@ article{
     .head-space{
         width: 100%;
         margin: 0 10px;
+    }
+    nav{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    nav li{
+        list-style: none;
+        margin-left: 0px;
+        font-size: 16px;
+        
+    }
+    li a{
+        text-decoration: none;
+        color: white;
+        font-weight: 400;
+        padding: 5px;
     }
 }
 /* tablet  */
