@@ -225,7 +225,7 @@ article{
 @media only screen and (max-width:688px){
     .container{
         width: 100%;
-        padding: 0 10px;
+        padding: 30 10px;
     }
     main{
         margin: 0 5px;
@@ -236,6 +236,9 @@ article{
     }
     .player, .blog-articale{
         flex-direction: column;
+    }
+    .course{
+        margin: 15px auto;
     }
     .head-space{
         width: 100%;
