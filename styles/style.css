@@ -10,7 +10,7 @@ header{
     justify-content: center;
 }
 .head-space{
-    width: 920px;
+    width: 870px;
     display: flex;
     justify-content: space-between;
 }
@@ -46,6 +46,10 @@ li a{
     text-decoration: none;
     color: white;
     font-weight: 400;
+    padding: 10px;
+}
+li a:hover{
+    color: violet;
 }
 
 /* Main body  */
@@ -66,8 +70,9 @@ main{
 /* two section  */
 .container{
     
-    width: 870px;
+    max-width: 870px;
     background-color: white;
+    box-sizing: border-box;
     padding: 30px;
     margin-bottom: 21px;
     border-radius: 8px;
@@ -101,7 +106,7 @@ main{
     width: 56px;
 }
 hr{
-    width: 807px;
+    max-width: 807px;
     background-color: #D1D1D1;
     margin-top: 30px;
 }
